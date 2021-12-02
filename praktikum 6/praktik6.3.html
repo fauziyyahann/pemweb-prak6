@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum 6.3</title>
+    <style>
+        nav, header, article, aside, footer {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .header {
+            background-color: #2A0944;
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            padding: 0.5em;
+        }
+        
+        header, footer {
+            background-color:  #7267cb;
+            width: 96.7%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px 10px;
+        }
+
+        .aside {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: row;
+        }
+
+        aside {
+            background-color: #A12568;
+            min-height: 100vh;
+            width: 300%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .article {
+            background-color: #fec260;
+            width: 90%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .box {
+            background-color: #3B185F;
+            width: 200px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <header>Header</header>
+    <div class="aside">
+        <aside>Aside</aside>
+        <article class="article">
+            <div>Article</div>
+            <div id="container">
+                <div class="box">Image</div>
+                <div class="box">Image</div>
+                <div class="box">Image</div>
+            </div>
+        </article>
+    </div>
+    <footer>Footer</footer>
+    </div>
+</body>
+</html>
